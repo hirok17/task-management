@@ -17,7 +17,7 @@ const DashboardHome = () => {
                                 <NavLink className="btn" to="/dashboard/tasks">Tasks</NavLink>
                             </li>
                             <li>
-                                <NavLink className="btn" to="/dashboard/trainers">Trainers</NavLink>
+                                <NavLink className="btn" to="/dashboard/task">Create Task</NavLink>
                             </li>
                             <li>
                                 <NavLink className="btn" to="/dashboard/alluser">All User</NavLink>
