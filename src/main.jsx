@@ -14,6 +14,7 @@ import { Toaster } from 'react-hot-toast'
 import Dashboard from './Dashboard/Dashboard.jsx'
 import DashboardHome from './Dashboard/page/DashboardHome.jsx'
 import Tasks from './Dashboard/page/Tasks.jsx'
+import ManageTask from './Dashboard/page/ManageTask.jsx'
 
 const router=createBrowserRouter([
   {
@@ -52,8 +53,12 @@ const router=createBrowserRouter([
         element:<DashboardHome></DashboardHome>,
         children:[
          {
-          path:"tasks",
+          path:"create-tasks",
           element:<Tasks></Tasks>
+         },
+         {
+          path:"task",
+          element:<ManageTask></ManageTask>
          }
 
         ]

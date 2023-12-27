@@ -14,14 +14,12 @@ const DashboardHome = () => {
                                 <NavLink className="btn" to="/dashboard"><FaBuilding></FaBuilding>Dashboard</NavLink>
                             </li>
                             <li>
-                                <NavLink className="btn" to="/dashboard/tasks">Tasks</NavLink>
+                                <NavLink className="btn" to="/dashboard/create-tasks">Create Task</NavLink>
                             </li>
                             <li>
-                                <NavLink className="btn" to="/dashboard/trainers">Trainers</NavLink>
+                                <NavLink className="btn" to="/dashboard/task">Manage Task</NavLink>
                             </li>
-                            <li>
-                                <NavLink className="btn" to="/dashboard/alluser">All User</NavLink>
-                            </li>
+                           
                         </ul>
                     </div>
                 </div>
